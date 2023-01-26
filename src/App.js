@@ -9,7 +9,7 @@ import ReservationDetails from"./components/ReservationDetails"
 import ReservationAccountCreation from './components/ReservationAccountCreation';
 import { Routes, Route} from "react-router-dom";
 import ReservationConfirmation from './components/ReservationConfirmation';
-//import { useLayoutEffect, useRef, useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 
 function App() {
 
