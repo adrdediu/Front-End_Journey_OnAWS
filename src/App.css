@@ -1,0 +1,624 @@
+* {
+    padding: 0; 
+    margin: 0;
+    
+}
+.invisible-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap:  nowrap;
+    flex-flow:row wrap;
+    align-items: center;
+    align-content:center;
+    max-width: 975px;
+}
+
+.header-logo {
+    width:auto;
+    object-fit: contain;
+    height: 70px;
+    padding: 33px 35px 37px 0;
+}
+
+.nav-top ul {
+    display:flex;
+    justify-content: space-between;
+}
+.nav-top li {
+    display:flex;
+    list-style: none;
+    height: 70px;
+    padding: 0 20px;
+    align-items: center;
+
+}
+.nav-top a {
+    text-decoration:none;
+    color: #000;
+    font-size: 18px;
+    font-style: 'semibold';
+    font-weight: 500;
+    font-family: 'Karla';
+}
+
+.hero {
+    background-color: #495e57;
+    height: 380px;
+    width:100%;
+}
+
+.hero-section {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.hero-section-text {
+    height:320px;
+}
+
+.hero-title {
+    margin-top:25px;
+    color: hsla(50, 91%, 52%, 1);
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    height:77px;
+}
+.hero-subtitle {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Markazi Text';
+    font-weight: 400;
+    margin-bottom:20px;
+}
+.hero-description {
+    color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Karla';
+    width: 277px;
+    height: 116px;
+    justify-content: center;
+    margin-bottom:20px
+}
+
+.hero-reserve-button {
+    width: 211px;
+    height: 60px;
+    align-items: flex-start;
+    border: 0.2px solid #000;
+    border-radius: 16px;
+    background-color: #f4ce14;
+}
+.hero-reserve-button-text {
+    color: #000;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Karla';
+  z-index: 0;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.hero-section-image {
+    margin-top:25px;
+    z-index: 2;
+    width: 360px;
+    height: 440px;
+    border-radius: 16px;
+}
+.promo {
+    height:600px;
+}
+.promo-section {
+    max-width: 940px; 
+    margin: 0 auto; 
+    margin-top:69px;
+}
+.promo-title {
+    justify-content:space-between;
+    max-width:940px;
+    margin:0 auto; 
+    margin-top:150px;
+}
+.promo-title-text {
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.promo-menu-button {
+    width: 200px;
+    height: 60px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F4CE14;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Karla';
+    z-index: 0;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.dish-card {
+    width:268px;
+    height:400px;
+    background-color: #EDEFEE;
+    border: 1px solid #d3d3d3;
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.dish-card-image {
+    height:168px;
+    border-radius:16px;
+}
+.dish-card-content {
+    margin: 17px  20px  27px 17px;
+    flex-wrap: wrap;
+}
+.dish-card-title {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+.dish-card-price {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #EE9972;
+}
+
+.dish-card-description {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #495E57;
+    height:117px;
+}
+.dish-card-order {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.testimonials {
+    width: 100%;
+    height: 615px;
+    background: url("./assets//images/testimonialsBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.testimonials-title {
+    margin-top:140px;
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.testimonials-section {
+    max-width: 940px; 
+    margin:0 auto; 
+    margin-top:70px; 
+}
+
+.review-card {
+    background-color:white;
+    border-radius:16px;
+    height:300px;
+    width:200px;
+    border:1px solid #d3d3d3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+
+.star {
+    width:15px;
+    height:15px;
+}
+
+.review-card-rating {
+    justify-content: center;
+    margin: 20px 11px 0 11px;
+    width:178px;
+}
+
+.review-card-content {
+    margin:20px 12px 22px 12px;;
+}
+
+.review-card-avatar{
+    border-radius:40px;
+    width:75px;
+    height:75px;
+    border:1px solid rgba(73, 94, 87, 0.78);
+}
+
+.review-card-name {
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+.review-card-description {
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+text-align: center;
+width: 150px;
+color: rgba(0, 0, 0, 0.76);
+}
+
+.about {
+    width: 100%;
+    height: 615px;
+    background-color:white;
+}
+
+.about-content {
+   
+    align-content:center;
+    max-width:940px;
+    margin:0 auto;
+}
+.about-heading {
+    font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 600;
+font-size: 61px;
+line-height: 73px;
+display: flex;
+align-items: center;
+
+color: #495E57;
+}
+
+.about-image-group {
+    width:550px;
+    padding-top:45px;
+ }
+
+.about-img1,.about-img2 {
+    width:310px;
+    height:342px;
+    object-fit: cover;
+    border: 1px solid #495E57;
+    border-radius: 16px;
+}
+.about-img1 {
+    filter: drop-shadow(-4px 4px 4px rgba(255, 255, 255, 0.26));
+    align-self:end;
+    z-index:2;
+    margin-bottom:-150px;
+}
+.about-img2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    align-self:start;
+}
+.about-story {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #495E57;
+    width:275px;
+}
+
+.about-readmore-btn {
+    width: 200px;
+    height: 60px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F4CE14;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Karla';
+    z-index: 0;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    margin-top:50px;
+}
+
+.footer {
+    background-color:#495E57;
+    height:350px;
+    width:100%;
+}
+.footer-content {
+    max-width:940px;
+    margin:0 auto;
+    padding:30px 0; 
+}
+.footer-category{
+    height:270px;
+}
+
+.footer-logo {
+    height:270px;
+    width:156px;
+}
+
+.footer-categories-title {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.nav-bot a,.nav-bot-list-item {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-top:1px;
+    margin-bottom:10px;
+
+}
+.nav-bot-list-subitem {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left:10px;
+    margin-bottom:12px;
+}
+.social-icon {
+    border-radius:25px; 
+    border:3px solid white;
+}
+
+ /*!!!!!!!!!!!!!!!!!! First media rule at 1011px, max width set to 940px everywhere */ 
+ /* !!!!!!!!!!!!!!!!!Add a margin to all the main sections of 35px left and right */
+ @media only screen and (max-width: 1051px) {
+    .header{
+        max-width: 92.857vw;
+    }
+    .nav-top li {
+        padding: 0 1.905vw;
+    }
+    .hero-section,.promo-section,.promo-title,.testimonials-section,.about-content,.footer-content {
+        max-width:89.524vw;
+    }
+ }
+
+ /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+ @media only screen and (max-width:946px){
+    .header-logo {
+        padding: 33px 0 0 0;
+    }
+ }
+ /*logo only above*/
+
+ /*CARDS Specialties*/
+
+ @media only screen and (max-width:967px) {
+    .dish-card{
+        width:27.715vw;
+    }
+    .dish-card-content{
+        margin:17px 2.068vw 27px 1.758vw;
+    }
+    .dish-card-title,.dish-card-price,.dish-card-order {
+        font-size:1.861vw;
+    }
+    .dish-card-description {
+        font-size:1.655vw;
+        line-height:2.5vw;
+    }
+    .review-card {
+        width:20.683vw;
+        height:auto;
+    }
+    .star {
+        width:1.551vw;
+        height:1.551vw;
+    }
+    .review-card-rating{
+        width:18.407vw;
+        margin:20px 1.138vw 0 1.138vw;
+    }
+    .review-card-content {
+        margin:20px 1.241vw, 22px, 1.241vw;
+    }
+    .review-card-avatar {
+        width:7.756vw;
+        height:7.756vw;
+        border-radius:4.137vw;
+    }
+    .review-card-name {
+        font-size:1.861vw;
+    }
+    .review-card-description {
+        max-width:15.512vw;
+        font-size:1.655vw;
+        line-height:2.5vw;
+        height:auto;
+    }
+    .about {
+        height:auto;
+    }
+    .about-content {
+        height:auto;
+    }
+    .about-heading {
+        font-size:6.308vw;
+    }
+    .about-image-group {
+        width:56.877vw;
+        padding-bottom: 25px;
+    }
+    .about-img1,.about-img2 {
+        width:32.058vw;
+        height:35.367vw;
+    }
+    .about-img1 {
+        margin-bottom:-15.512vw;
+    }
+    .about-story {
+        font-size:1.655vw;
+        width:28.438vw;
+        line-height:2.5vw;
+    }
+    .about-readmore-btn {
+        width:20.683vw;
+        font-size:2.275vw;
+    }
+    .footer {
+        height:36.194vw;
+    }
+    .footer-logo {
+        height:27.921vw;
+        width:16.132vw;
+    }
+    .footer-content {
+        padding: 3.102vw 0;
+    }
+
+    .footer-category {
+        height:27.921vw;
+    }
+    .footer-categories-title {
+        font-size:2.275vw;
+    }
+    .nav-bot a,.nav-bot-list-item{
+        font-size:1.861vw;
+        margin-bottom:1vw;
+    }
+    .nav-bot-list-subitem {
+        font-size:1.861vw;
+        margin-bottom:1.2vw;
+    }
+    .social-icon {
+        width:2vw;
+        height:2vw;
+        border-radius:25vw;
+    }
+ }
+
+
+
+ /*BELOW FONTS AND WIDTHS FOR Some elements*/
+@media only screen and (max-width:751px) {
+    .hero {
+        width:100%;
+        height:50.599vw;
+    }
+    .hero-section-text {
+        height:42.610vw;
+    }
+    .hero-title {
+        font-size:8.522vw;
+        height:10.253vw;
+        margin-top:3.329vw;
+    }
+    .hero-subtitle {
+        font-size:5.326vw;
+        margin-bottom:2.663vw;
+    }
+    .hero-description {
+        font-size:2.663vw;
+        width:36.884vw;
+        height:15.446vw;
+        margin-bottom:2.663vw;
+    }
+    .hero-section-image {
+        width:47.936vw;
+        max-height:58.589vw;
+    }
+    .hero-reserve-button{
+        width:28.096vw;
+        height:7.989vw;
+    }
+    .hero-reserve-button-text{
+        font-size:2.929vw;
+    }
+    .promo-title {
+        margin-top:19.973vw
+    }
+    .promo-title-text {
+        font-size:8.522vw;
+    }
+    .promo-menu-button{
+        font-size:2.929vw;
+        width:26.631vw;
+    }
+    .testimonials-title{
+        font-size:5.459vw;
+    }
+    .dish-card-image {
+        height:auto;
+    }
+    .dish-card,.dish-card-image,.dish-card-content,.dish-card-description {
+        height:auto;
+    }
+    
+}
+ 
+ @media only screen and (max-width: 601px ) {
+    .nav-top a {
+        font-size:3vw;
+    }
+ 
+ }
+
+ /* Classes for other Components */
+

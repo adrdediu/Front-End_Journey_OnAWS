@@ -1,0 +1,198 @@
+.reservation-banner{
+    display:flex;
+    height:360px;
+    width:100%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.reservation-banner img {
+    width:860px;
+}
+
+.reservation-background {
+    height:1000px;
+    width:100%;
+    background-color: #F6F6F6;
+}
+.reservation-content {
+    width:860px;
+    margin:0 auto;
+}
+.reservation-title {
+    
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+}
+.reservation-info {
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: rgba(0, 0, 0, 0.7);
+text-align: center;
+padding:0 5%;
+}
+.back-button {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    height:50px;
+    width:100px;
+    border-radius:16px;
+    background-color: #F4CE14;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    border: 0.2px solid black;
+
+    margin-top:20px
+}
+.confirm-button {
+    background: #F4CE14;
+    border: 0.2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    width: 420px;
+    height: 50px;
+}
+.progress-bar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    width:860px;
+    height:55px;
+    margin-top:13px;
+}
+.progress-bar-intermediary-lines {
+    width:244px;
+}
+
+.reservation-content-panel {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    width:860px;
+    height:600px;
+    margin-top:13px;
+}
+.reservation-content-panel-segment {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:640px;
+    height:60px;
+    background: #EDEFEE;
+    border-radius: 16px;
+    
+}
+.reservation-content-panel-segment-icon {
+    border-radius: 16px;
+    height:45px;
+}
+.reservation-content-panel-segment-text {
+    display:flex;
+    background: white;
+    border-radius: 16px;
+    height:45px;
+    align-items: center;
+    padding:0 15px;
+    margin: 0 auto;
+    border: 1px inset solid lightgrey;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    width:60px;
+    justify-content: center;
+}
+.form-field {
+    background-color:white;
+    border: 5px solid #D9D9D9;
+    border-radius: 16px;
+    text-align:center;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.form-error-message {
+    font-family: 'Karla';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 16px;
+    color:red;
+}
+.form-subsection-title {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #000000;
+}
+.form-subsection-text {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding:0 15px;
+}
+.confirm-details {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Karla';
+    justify-content: center;
+}
+
+@media only screen and (max-width:967px) {
+    .reservation-banner {
+        height:fit-content;
+    }
+
+    .reservation-banner img,
+    .reservation-content,
+    .progress-bar,
+    .reservation-content-panel {
+        width:88.935vw;
+    }
+    .reservation-content {
+        margin:0 5.5325vw;
+    }
+    .progress-bar-intermediary-lines {
+        width:25.233vw;
+    }
+    .reservation-content-panel-segment {
+        width:66.184vw
+    }
+    .confirm-button {
+        width:43.433vw;
+        font-size:14px;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .reservation-content-panel-segment-text {
+        width: 30px;
+        font-size:14px;
+        padding: 0 15px
+    }
+    .progress-bar-intermediary-lines{
+        width:50px
+    }
+}
