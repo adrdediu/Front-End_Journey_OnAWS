@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@aws-amplify/cli": "^10.6.2",
+    "@aws-amplify/ui-react": "^4.3.5",
     "@chakra-ui/react": "^2.4.5",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -17,6 +18,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "aws-amplify": "^5.0.11",
     "dayjs": "^1.11.7",
     "formik": "^2.2.9",
     "framer-motion": "^8.0.2",
