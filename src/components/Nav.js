@@ -10,7 +10,7 @@ function Nav() {
                     <li><a href="/menu" className="nav-item">Menu</a></li>
                     <li><a href="/reservations" className="nav-item">Reservations</a></li>
                     <li><a href="/order-online" className="nav-item">Order Online</a></li>
-                    <li><a href="/log-in" className="nav-item">Log In</a></li>
+                    <li><Link to="/log-in" className="nav-item">Log In</Link></li>
                 </ul>
             </nav> 
         </React.Fragment>

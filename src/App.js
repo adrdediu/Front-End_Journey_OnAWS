@@ -1,6 +1,5 @@
 import './App.css';
 import "./assets/stylesheets/reservationFeatureStyle.css"
-
 import React from "react"
 import Header from "./components/Header"
 import Main from "./components/Main"
@@ -9,9 +8,18 @@ import ReservationDetails from"./components/ReservationDetails"
 import ReservationAccountCreation from './components/ReservationAccountCreation';
 import { Routes, Route} from "react-router-dom";
 import ReservationConfirmation from './components/ReservationConfirmation';
-import { useLayoutEffect, useRef, useState } from 'react';
+//import { useLayoutEffect, useRef, useState } from 'react';
+import {
+  withAuthenticator,
+  Button,
+  Heading,
+  Image,
+  View,
+  Card,
+} from "@aws-amplify/ui-react";
 
-function App() {
+
+function App({ signOut }) {
 
   return (
     <React.Fragment>
